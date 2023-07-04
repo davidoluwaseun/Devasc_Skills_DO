@@ -1,27 +1,28 @@
+# GitHub
 Task 1 - GitHub
-Task Description
+**Task Description**
 Manage GitHub scripts and documents
 ![Task 1 Screenshot](task1_screenshot.png)
 
-Task Preparation
+**Task Preparation**
 Create a folder named "Devasc_Skills" in the DEVASC virtual machine.
 Start a Git repository in the "Devasc_Skills" folder.
 
-Task Implementation
+**Task Implementation**
 Created a local repository using the git init command.
 Created a GitHub repository named "Devasc_Skills_DO".
 Connected the local repository to the GitHub repository using git remote add origin https://github.com/davidoluwaseun/Devasc_Skills_DO.
 Uploaded the local files to GitHub after each task using appropriate Git commands.
 
-Task Troubleshooting
+**Task Troubleshooting**
 No major issues encountered during the implementation.
 
-Task Verification
+**Task Verification**
 Screenshot: GitHub Repository
 
-# GitHub
 
 
+# Task 2: Ansible
 Task 2: Ansible
 Task Description
 ![Task 2 Screenshot](task2_screenshot.png)
@@ -39,7 +40,7 @@ Task Verification
 [...]
 
 
-# Ansible
+
 
 
 
@@ -107,33 +108,30 @@ Task Verification
 [...]
 
 
-# restconf
 
 
 
+# Task 6: Webex
 Task 6: Webex
 Task Description
 Manage GitHub scripts and documents
 ![Task 6 Screenshot](task6_screenshot.png)
 
-Task Preparation
+**Task Preparation**
 To perform this task, I did the the following:
 
-create a Webex Teams account
-Webex Teams access token
-Installed Python on the system
-Installed requested library(pip install requests)
+(i) create a Webex Teams account
+(ii) Webex Teams access token
+(iii) Installed Python on the system
+(iv) Installed requested library(pip install requests)
 
-Task Implementation
+**Task Implementation**
 The following steps were taken:
 
-Imported the necessary libraries:
-python
-Copy code
+(i) Imported the necessary libraries: python
 import requests
 Defined the Webex Teams API endpoint and access token:
-python
-Copy code
+
 api_url = "https://api.ciscospark.com/v1"
 access_token = "YmU5NjZjMGYtMDI5Ni00YWRmLThjZWUtMjc5Y2M2OTVlYzJiNGFlMzhlNmMtZTVh_PF84_58476986-544b-4c19-b57f-0d76391b2077"
 Created a Webex Teams space using the API:
@@ -205,55 +203,54 @@ def main():
 if __name__ == "__main__":
     main()
 
-Task Troubleshooting
+**Task Troubleshooting**
 The following problem was encountered:
-
 The email address davidoluwaseun2000@yahoo.com could not be added as a member. 
 
-Task Verification
+**Task Verification**
 The quality of the task result can be verified by checking the following:
-
-Successful creation of the Webex Teams space with the assigned space ID.
-Successful addition of the member yvan.rooseleer@biasc.be to the space.
-
-# Webex
+(i) Successful creation of the Webex Teams space with the assigned space ID.
+(ii) Successful addition of the member yvan.rooseleer@biasc.be to the space.
 
 
 
 
+
+
+# Task 7: Bash
 Task 7: Bash
 Task Description
 Manage GitHub scripts and documents
 ![Task 7 Screenshot](task7_screenshot.png)
 
-Task Preparation
-To perform this task, you need to ensure the following:
+**Task Preparation**
+To perform this task, I ensure the following:
 
-Have access to a network device that supports RESTCONF API.
-Install cURL on your Linux machine (if not already installed) using the package manager for your distribution.
+(i) Have access to a network device that supports RESTCONF API.
+(ii) Install cURL on your Linux machine (if not already installed) using the package manager for your distribution.
 
-Task Implementation
+**Task Implementation**
 To implement the RESTCONF API calls in Bash, I followed these steps:
 
-Create a bash script file.
-Define the necessary variables, such as the IP address of the host, RESTCONF credentials, data format, and interface details.
-Construct the REST API URLs for PUT and GET requests.
-Set the headers and authentication for the requests.
-Prepare the payload data for the PUT request.
-Make the PUT request using cURL and capture the status code.
-Make the GET request using cURL and capture the status code and interface information.
-Output the results.
+(i) Create a bash script file.
+(ii) Define the necessary variables, such as the IP address of the host, RESTCONF credentials, data format, and interface details.
+(iii) Construct the REST API URLs for PUT and GET requests.
+(iv) Set the headers and authentication for the requests.
+(v) Prepare the payload data for the PUT request.
+(vi) Make the PUT request using cURL and capture the status code.
+(vii) Make the GET request using cURL and capture the status code and interface information.
+(viii) Output the results.
 
-Task Troubleshooting
+**Task Troubleshooting**
 Following troubleshooting steps:
 
-I checked the connectivity to the host and ensure it is reachable from your Linux machine.
-I verify the correctness of the RESTCONF credentials and API URLs.
-Ensure cURL is installed and accessible from the command line.
-Validate the payload data format and structure for the PUT request.
-Inspect any error messages or status codes returned by the API calls for debugging.
+(i) I checked the connectivity to the host and ensure it is reachable from your Linux machine.
+(ii) I verify the correctness of the RESTCONF credentials and API URLs.
+(iii) I ensure cURL is installed and accessible from the command line.
+(iv) I validate the payload data format and structure for the PUT request.
 
-Task Verification
+
+**Task Verification**
 Verified the quality of the result, follow these steps:
 
 Run the bash script.
@@ -268,7 +265,7 @@ Compare the obtained results with the expected behavior of the RESTCONF API.
 
 
 
-# Filtering DNAC Response Data
+# Task 10: Filtering DNAC Response Data
 
 Task 10: Filtering DNAC Response Data
 Description: Filtering DNAC Response Data
