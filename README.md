@@ -262,26 +262,34 @@ Ensure that the output includes the current date, start and end markers, status 
 Compare the obtained results with the expected behavior of the RESTCONF API.
 
 
-# Bash
 
 
 
 
 
 
+# Filtering DNAC Response Data
 
-Task 10:  DNAC
-Task Description
-[...]
+Task 10: Filtering DNAC Response Data
+Description: Filtering DNAC Response Data
 
-Task Preparation
-[...]
+**Task Preparation**
+To perform this task, I needed:
+A virtual DEVASC virtual machine with an internet connection.
+Access to a Python execution environment.
 
-Task Implementation
-[...]
+**Task Implementation**
+I Copied the provided sample script to my Python execution environment.
+I replace the XXXXXXXX placeholders in the script with suitable parameters, variables, keys, names, or code as instructed in the comments.
+Run the script.
+The script uses the DNAC API to retrieve network device information and filters the response data based on certain conditions. It then prints the filtered data to the console.
 
-Task Troubleshooting
-[...]
+**Task Troubleshooting**
+While implementing this task, the following problems was encountered:
 
-Task Verification
-[...]
+(i) Incorrect credentials: I make sure to provide the correct username and password for DNAC authentication.
+(ii) Network connectivity issues: I ensure that your virtual machine has an internet connection to communicate with the DNAC server.
+
+**Task Verification**
+To verify the quality of the result, I check if the script produces the expected output similar to the provided "DNAC OUTPUT TASK 10" in the task description. 
+Successful execution of the script.
