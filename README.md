@@ -19,7 +19,7 @@ No major issues encountered during the implementation.
 Task Verification
 Screenshot: GitHub Repository
 
-# Devasc_Skills_DO
+# GitHub
 
 
 Task 2: Ansible
@@ -39,6 +39,9 @@ Task Verification
 [...]
 
 
+# Ansible
+
+
 
 Task 3: Docker
 Task Description
@@ -56,6 +59,8 @@ Task Troubleshooting
 Task Verification
 [...]
 
+
+# Docker
 
 
 
@@ -77,6 +82,8 @@ Task Troubleshooting
 Task Verification
 [...]
 
+
+# Jenkins
 
 
 
@@ -100,7 +107,7 @@ Task Verification
 [...]
 
 
-
+# restconf
 
 
 
@@ -209,7 +216,7 @@ The quality of the task result can be verified by checking the following:
 Successful creation of the Webex Teams space with the assigned space ID.
 Successful addition of the member yvan.rooseleer@biasc.be to the space.
 
-
+# Webex
 
 
 
