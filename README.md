@@ -43,25 +43,42 @@ Task Verification
 
 
 
-
-Task 3: Docker
-Task Description
-[...]
-
-Task Preparation
-[...]
-
-Task Implementation
-[...]
-
-Task Troubleshooting
-[...]
-
-Task Verification
-[...]
-
-
 # Docker
+Task 3: Docker
+
+### Task name: Create Docker Image with Apache2 and Ansible
+
+### Task preparation:
+1. Ensure you have Docker installed on your system.
+2. Create an Ansible playbook (`playbook.yml`) to configure Apache2 and other necessary settings.
+3. Prepare an `index.html` file and place it inside a directory named `files`, which will be copied to the Apache2 web server during container creation.
+4. Create a `Dockerfile` to define the Docker image build process.
+
+### Task implementation:
+1. start by using the official Ansible base image (`ubuntu:latest`) to ensure Ansible is available within the container.
+2. Install Ansible and other required packages within the Docker image.
+3. Copy the Ansible playbook (`playbook.yml`) and the `files` directory to the container.
+4. Set the working directory to the Ansible playbook directory (`/ansible`).
+5. Run the Ansible playbook (`playbook.yml`) inside the container to configure Apache2 and other settings.
+6. Install Apache2 within the container and expose port 8088.
+7. Start the Apache2 service in the foreground to keep the container running.
+
+### Task troubleshooting:
+During the implementation of the Docker image creation, a few potential issues may arise:
+1. **Ansible Playbook Errors**: Ensure that the Ansible playbook (`playbook.yml`) is correctly written and doesn't contain syntax errors or logical issues.
+2. **Package Installation Issues**: Verify that all necessary packages are installed in the Docker image, including Ansible and Apache2.
+3. **File Copying Problems**: Ensure that the `index.html` file is placed in the correct location (`files` directory) and is correctly copied to the Apache2 web server directory during the Ansible playbook execution.
+4. **Port Mapping Conflicts**: If port 8088 is already in use on the host, the container may not start correctly. Ensure that the port is available or use a different port for mapping.
+
+### Task verification:
+After building and running the Docker image, I verify the results by:
+1. Access the Apache2 web server by visiting http://localhost:8088 in my web browser. after which I was able to see the content of the `index.html` file served by Apache2.
+2. Test the functionality of Apache2 by ensuring that it listens on port 8088 and responds to HTTP requests as expected.
+3. checked that any modifications made to the Ansible playbook are correctly applied during the container creation process.
+
+
+
+
 
 
 
