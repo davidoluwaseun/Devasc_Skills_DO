@@ -261,10 +261,10 @@ To implement the RESTCONF API calls in Bash, I followed these steps:
 **Task Troubleshooting**
 Following troubleshooting steps:
 
-(i) I checked the connectivity to the host and ensure it is reachable from your Linux machine.
-(ii) I verify the correctness of the RESTCONF credentials and API URLs.
-(iii) I ensure cURL is installed and accessible from the command line.
-(iv) I validate the payload data format and structure for the PUT request.
+(i) checked the connectivity to the host and ensure it is reachable from your Linux machine.
+(ii) verify the correctness of the RESTCONF credentials and API URLs.
+(iii) ensure cURL is installed and accessible from the command line.
+(iv) validate the payload data format and structure for the PUT request.
 
 
 **Task Verification**
@@ -294,16 +294,16 @@ Access to a Python execution environment.
 
 **Task Implementation**
 I Copied the provided sample script to my Python execution environment.
-I replace the XXXXXXXX placeholders in the script with suitable parameters, variables, keys, names, or code as instructed in the comments.
+I replace the XXXXXXX placeholders in the script with suitable parameters, variables, keys, names, or code as instructed in the comments.
 Run the script.
 The script uses the DNAC API to retrieve network device information and filters the response data based on certain conditions. It then prints the filtered data to the console.
 
 **Task Troubleshooting**
-While implementing this task, the following problems was encountered:
+While implementing this task, the following problems were encountered:
 
 (i) Incorrect credentials: I make sure to provide the correct username and password for DNAC authentication.
 (ii) Network connectivity issues: I ensure that your virtual machine has an internet connection to communicate with the DNAC server.
 
 **Task Verification**
-To verify the quality of the result, I check if the script produces the expected output similar to the provided "DNAC OUTPUT TASK 10" in the task description. 
+To verify the quality of the result, check if the script produces the expected output similar to the provided "DNAC OUTPUT TASK 10" in the task description. 
 Successful execution of the script.
